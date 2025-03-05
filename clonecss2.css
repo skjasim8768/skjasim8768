@@ -1,0 +1,187 @@
+#librarylogo{
+    height: 25px;
+    width: 25px;
+    filter: invert(1);
+    display: flex;
+    align-items: center;
+}
+#libraryhead{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+#libraryhead:hover{
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#library{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    gap: 10px;
+}
+#plus{
+    height: 30px;
+    width: 30px;
+    filter: invert(1);
+    margin-left: 180px;
+    padding: 10px;
+}
+#plus:hover{
+    cursor: pointer;
+   background-color: rgba(134, 136, 138, 0.308);
+   border-radius: 30px;
+}
+.headlist{
+    margin-top:15px ;
+}
+.headlist:hover{
+    cursor: pointer;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+#searchbox{
+    display: flex;
+    height: 30px;
+    width: 450px;
+    margin-top: 5px;
+    gap: 8px;
+    border-radius: 30px;
+    padding: 10px;
+    align-items: center;
+    background-color: rgba(124, 129, 129, 0.295);
+}
+#scrollbar{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(156, 152, 152, 0.055);
+    border-radius: 10px;overflow-y: scroll;
+    overflow-x: hidden;
+}
+.iteam{
+    height: 60%;
+    width: 92%;
+    border-radius: 10px;
+    background-color: rgba(140, 141, 143, 0.13);
+    margin: 15px;
+    margin-top: 30px;
+    margin-bottom: 30PX;
+}
+#stline,#stlinei{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+#ndline,#ndlinei{
+    padding-left: 15px;
+    margin-bottom: 20px
+}
+#CPLBUT,#BPBUT{
+    background-color: white;
+    color: black;
+    display: inline;
+    padding: 10px;
+    border-radius:20px;
+    margin-left: 20px;
+}
+#CPLBUT,#BPBUT:hover{
+    cursor: pointer;
+}
+#worldlogo{
+    height: 30px;
+    width: 30px;
+    filter: invert();
+}
+#langlogo{
+    font-size:small;
+    padding: 0px;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+    display:inline-flex;
+    border: 2px solid white;
+    margin-top: 50px;
+    border-radius: 25px;
+}
+#langlogo:hover{
+    cursor: pointer;
+    color: white;
+    padding:3px;
+}
+.songs{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+
+}
+.image{
+    height: 160px;
+    width: 160px;
+}
+.SONGS{
+    height: 245px;
+    width: 195px;
+    padding-left: 19px;
+    padding-top: 15px;
+    background-color: rgba(68, 68, 68, 0.151);
+}
+.SONGS:hover{
+    cursor: pointer;
+    background-color: rgba(142, 146, 150, 0.171);
+}
+.play{
+    height: 39px;
+    width: 39px;
+    border-radius:50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    top: 250px;
+    margin-left: 150px;
+    background-color: rgb(3, 255, 3);
+    opacity: 1;
+    transition:all 1s ease-out ;
+}
+
+.play:hover{
+    transform:scale(1.5);
+}
+/* Scrollbar track */
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #2e2e2e;
+  }
+  
+  /* Scrollbar thumb */
+  ::-webkit-scrollbar-thumb {
+    background-color: #4a4a4a;
+    border-radius: 6px;
+    border: 3px solid #2e2e2e;
+  }
+  
+  /* Scrollbar corner */
+  ::-webkit-scrollbar-corner {
+    background-color: #2e2e2e;
+  }
+  .playsong{
+    width: 70%;
+    background-color: rgba(233, 227, 227, 0.979);
+    height: 50px;
+    bottom: 0;
+    margin-top: 20px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+  .nextsonginplaybar,.previoussong,.playsongbar{
+    width: 30px;
+    height: 30px;
+  }
+  .nextsonginplaybar,.previoussong,.playsongbar:hover{
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+  }
+  
