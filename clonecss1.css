@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+    color: rgba(194, 191, 191, 0.897);
+}
+.heading{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+#container{  
+    display: flex;
+    justify-self:center;
+    gap: 10px;
+    color: white;
+
+}
+.logo{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(45, 46, 46, 0.836);
+    padding: 10px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.logo:hover{
+    background-color: rgba(245, 240, 240, 0.356);
+} 
+#home:hover{
+    background-color:rgba(133, 124, 124, 0.445);
+}
+#home{
+     cursor: pointer;   
+    filter: invert(1);
+    height: 30px;
+    width: 30px;
+    background-color: rgba(45, 46, 46, 0.158);
+    padding: 10px;
+    border-radius: 30px;
+    display: flex;
+}
+.right{
+    background-color: rgba(45, 46, 46, 0.493);
+    width:69vw;
+    height: 80vh;
+    border-radius: 12px;
+    display: inline;
+    padding: 30px;
+    gap: 30px;
+    overflow: scroll;
+}
+#left{
+    background-color: rgba(45, 46, 46, 0.493);
+    width:25vw;
+    height: 80vh;
+    border-radius: 12px;
+}
+#searchlogo{
+    height: 30px;
+    width: 30px;
+    filter: invert(1);
+}
+#browselogo{
+    height: 30px;
+    width: 30px;
+    filter: invert(1);
+    justify-content: end;
+    display: flex;
+    padding-left:100px ;
+}
+#browselogo:hover{
+    cursor: pointer;
+}
+#searchinput{
+    background-color: rgba(71, 70, 70, 0);
+    border: none;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: larger;
+}
+#midline{
+    margin-left: 30px;
+}
+#login{
+    padding:25px;
+    margin-top: 5px;
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    display: flex;
+    font-size: larger;
+    align-items: center;
+}
+footer{
+    color: rgba(164, 165, 165, 0.884);
+}
+#footerlines:hover{
+    cursor: pointer;
+}
+#footerstline{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    margin-top:30px;
+}
+#footerndline{
+    display: flex;
+    gap: 30px;
+    padding-left: 20px;
+}
+#footerrdline{
+    padding-left: 20px;
+    margin-top: 10px;
+    color: white;
+}
+#footerrdline:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
