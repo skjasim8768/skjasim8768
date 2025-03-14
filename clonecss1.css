@@ -1,124 +1,143 @@
-*{
-    padding: 0;
-    margin: 0;
-}
-body{
-    background-color: black;
-    color: rgba(194, 191, 191, 0.897);
-}
-.heading{
-    height: 60px;
-    width: 100%;
-    display: flex;
-    gap: 20px;
-}
-#container{  
-    display: flex;
-    justify-self:center;
-    gap: 10px;
-    color: white;
+<!DOCTYPE html>
+<html lang="en">
 
-}
-.logo{
-    height: 30px;
-    width: 30px;
-    background-color: rgba(45, 46, 46, 0.836);
-    padding: 10px;
-    border-radius: 30px;
-    cursor: pointer;
-}
-.logo:hover{
-    background-color: rgba(245, 240, 240, 0.356);
-} 
-#home:hover{
-    background-color:rgba(133, 124, 124, 0.445);
-}
-#home{
-     cursor: pointer;   
-    filter: invert(1);
-    height: 30px;
-    width: 30px;
-    background-color: rgba(45, 46, 46, 0.158);
-    padding: 10px;
-    border-radius: 30px;
-    display: flex;
-}
-.right{
-    background-color: rgba(45, 46, 46, 0.493);
-    width:69vw;
-    height: 80vh;
-    border-radius: 12px;
-    display: inline;
-    padding: 30px;
-    gap: 30px;
-    overflow: scroll;
-}
-#left{
-    background-color: rgba(45, 46, 46, 0.493);
-    width:25vw;
-    height: 80vh;
-    border-radius: 12px;
-}
-#searchlogo{
-    height: 30px;
-    width: 30px;
-    filter: invert(1);
-}
-#browselogo{
-    height: 30px;
-    width: 30px;
-    filter: invert(1);
-    justify-content: end;
-    display: flex;
-    padding-left:100px ;
-}
-#browselogo:hover{
-    cursor: pointer;
-}
-#searchinput{
-    background-color: rgba(71, 70, 70, 0);
-    border: none;
-    color: white;
-    border-radius: 30px;
-    padding: 10px;
-    font-size: larger;
-}
-#midline{
-    margin-left: 30px;
-}
-#login{
-    padding:25px;
-    margin-top: 5px;
-    background-color: white;
-    color: black;
-    border-radius: 25px;
-    display: flex;
-    font-size: larger;
-    align-items: center;
-}
-footer{
-    color: rgba(164, 165, 165, 0.884);
-}
-#footerlines:hover{
-    cursor: pointer;
-}
-#footerstline{
-    display: flex;
-    gap: 30px;
-    padding: 20px;
-    margin-top:30px;
-}
-#footerndline{
-    display: flex;
-    gap: 30px;
-    padding-left: 20px;
-}
-#footerrdline{
-    padding-left: 20px;
-    margin-top: 10px;
-    color: white;
-}
-#footerrdline:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY CLONE </title>
+</head>
+<link rel="stylesheet" href="clone.css">
+<link rel="stylesheet" href="clone2.css">
+
+<body>
+    <header class="heading">
+        <img class="logo" src="favicon.ico" alt="">
+        <img id="home" src="home.svg" alt="">
+        <div id="searchbox">
+            <img id="searchlogo" src="search.svg" alt="serachlogo">
+            <input id="searchinput" type="search" placeholder=" search your fav song">
+            <p>|</p>
+            <img id="browselogo" src="browser-svgrepo-com.svg" alt="">
+        </div>
+        </div id="headlist">
+        <p class="headlist" id="Premium">Premium</p>
+        <p class="headlist" id="support">support</p>
+        <p class="headlist" id="Download">Download</p>
+        <p class="headlist" id="midline">|</p>
+        <p class="headlist" id="Install">Install App</p>
+        <p class="headlist" id="singup">Sing up</p>
+        <p class="headlist" id="login">log in</p>
+        </div>
+    </header>
+    <div id="container">
+        <div id="left">
+            <div id="library">
+                <div id="libraryhead"> <img id="librarylogo" src="playlist.svg" alt="playlist">
+                    Your library</div>
+                <img id="plus" src="plus-svgrepo-com.svg" alt="">
+            </div>
+            <div id="scrollbar">
+                <div class="iteam">
+                    <div id="stline">Create your first playlist</div>
+                    <div id="ndline">it's easy we'll help you</div>
+                    <div id="CPLBUT">create playlist</div>
+                </div>
+                <div class="iteam">
+                    <div id="stlinei">let's find some podcasts to follow</div>
+                    <div id="ndlinei">we'll keep you updated on new episodes</div>
+                    <div id="BPBUT">browse podcasts</div>
+                </div>
+            </div>
+            <footer id="footerlines">
+                <div id="footerstline">
+                    <p>legal</p>
+                    <p>safety & privacy </p>
+                    <p>privacy policy</p>
+                    <p>cookies</p>
+                </div>
+                <div id="footerndline">
+                    <p>about Ads</p>
+                    <p>accessibility</p>
+                </div>
+                <div id="footerrdline">
+                    <p>cookies</p>
+                </div>
+            </footer>
+            <div id="langlogo">
+                <img id="worldlogo" src="world-svgrepo-com.svg" alt="">
+                <p>ENGLISH</p>
+            </div>
+        </div>
+        <div class="right">
+            <div class="songs">
+                <DIV class="SONGS">
+                    <img class="image" src="maxresdefault.jpg" alt="">
+                    <div class="play">
+                        <img src="play.svg" alt="">
+                    </div>
+                    <p class="stpara">this is my song</p>
+                    <p class="ndpara">written by myself</p>
+                </DIV>
+                <DIV class="SONGS">
+                    <img class="image" src="size_m.jpg" alt="">
+                    <div class="play">
+                        <img src="play.svg" alt="">
+                    </div>
+                    <p class="stpara">this is my song</p>
+                    <p class="ndpara">written by myself</p>
+                </DIV>
+                <DIV class="SONGS">
+                    <img class="image" src="maxresdefault (1).jpg" alt="">
+                    <div class="play">
+                        <img src="play.svg" alt="">
+                    </div>
+                    <p class="stpara">this is my song</p>
+                    <p class="ndpara">written by myself</p>
+                </DIV>
+                <DIV class="SONGS">
+                    <img class="image" src="hqdefault.jpg" alt="">
+                    <div class="play">
+                        <img src="play.svg" alt="">
+                    </div>
+                    <p class="stpara">this is my song</p>
+                    <p class="ndpara">written by myself</p>
+                </DIV>
+                <DIV class="SONGS">
+                    <img class="image" src="bi-sarara.jpeg" alt="">
+                    <div class="play">
+                        <img src="play.svg" alt="">
+                    </div>
+                    <p class="stpara">this is my song</p>
+                    <p class="ndpara">written by myself</p>
+                </DIV>
+                <DIV class="SONGS">
+                    <img class="image" src="bikamoulimi.jpg" alt="">
+                    <div class="play">
+                        <img src="play.svg" alt="">
+                    </div>
+                    <p class="stpara">this is my song</p>
+                    <p class="ndpara">written by myself</p>
+                </DIV>
+                <DIV class="SONGS">
+                    <img class="image" src="images.jpeg" alt="">
+                    <div class="play">
+                        <img src="play.svg" alt="">
+                    </div>
+                    <p class="stpara">this is my song</p>
+                    <p class="ndpara">written by myself</p>
+                </DIV>
+         </div>
+         <div class="playsong">
+            <div class="playbuttons">
+            <img class="previoussong" src="prevsong.svg" alt="">
+            <img class="playsongbar" src="play.svg" alt="">
+            <img class="nextsonginplaybar" src="nextsong.svg" alt=""></div>
+            <input type="range" id="progress" min="0" max="100" value="0">
+            <span id="remaining-time">0:00</span>
+    <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+        </div>
+    </div>
+</body>
+<script src="clone.js"></script>
+
+</html>
